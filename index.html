@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3d landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <img class="img-gradient" src="gradient.png" alt="bg-pic" />
+    <div class="layer-blur"></div>
+
+    <div class="container">
+      <header>
+        <h1>3D</h1>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </nav>
+        <button class="btn" data-aos="fade-down" data-aos-duration="1500">SIGN UP</button>
+      </header>
+
+      <main>
+        <div class="content">
+          <div  data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0" data-aos-duration="1500" class="tag-box">
+            <div class="tag">POWERING &wedbar;</div>
+          </div>
+
+          <h1  data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0" data-aos-duration="2000" >NOTES FOR <br />DEVELOPERS</h1>
+
+          <p  data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0" data-aos-duration="2300"  class="des">
+            We are a team of developers who are passionate about creating
+            innovative solutions. Lorem ipsum dolor sit.
+          </p>
+
+          <div class="btn-link"  data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0" data-aos-duration="1500">
+            <a href="#" class="start-btn">GET STARTED</a>
+            <a href="#" class="more-btn">LEARN MORE</a>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.91/build/spline-viewer.js"></script>
+    <spline-viewer data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="300"
+    data-aos-offset="0" data-aos-duration="3500" url="https://prod.spline.design/2tlK2tYMsmkE0ehf/scene.splinecode" class="d-model"></spline-viewer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
